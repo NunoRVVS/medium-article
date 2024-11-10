@@ -1,0 +1,97 @@
+.roboto-thin {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Roboto", serif;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: "Roboto", serif;
+  font-weight: bold;
+}
+h2 {
+  color: #A0A0A0;
+  font-weight: 900;
+}
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+/* Banner customization */
+.banner {
+  background-image: url("https://loremflickr.com/320/240/brazil,rio");
+  background-size: cover;
+  background-position:50% 50%;
+  color: white;
+  padding: 100px 0;
+}
+.banner h1 {
+  font-size: 38px;
+}
+.banner p {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+.link-medium {
+  background-image: linear-gradient(to bottom, rgb(244, 253, 233), rgb(107, 56, 56));
+  color: #464444;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+  padding-inline: 5px;
+  border-radius: 5px;
+}
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgb(255, 207, 125), rgba(125, 255, 179, 1));}
+
+@media(max-width: 900px) {
+  .container {
+    width: 700px;
+  }
+}
+@media(max-width: 750px) {
+  .container {
+    width: 450px;
+  }
+}
+@media(max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+  .banner {
+    padding: 50px 0;
+  }
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner p {
+    font-size: 20px;
+  }
+}
